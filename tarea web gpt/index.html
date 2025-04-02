@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>KIUT - Tienda de Ropa</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <link rel="shortcut icon" href="./img/boutique.png" type="image/x-icon">
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+        }
+
+        /* Estilo para el banner */
+        .banner {
+            background: url('./img/fondo.jpg') no-repeat center center;
+            background-size: cover;
+            color: rgb(255, 255, 255);
+            text-align: center;
+            padding: 200px 0;
+        }
+
+        .banner h1 {
+            font-size: 50px;
+            margin: 0;
+        }
+
+        .banner p {
+            font-size: 20px;
+        }
+
+        /* Estilo para la sección de logo y datos */
+        .logo-section {
+            background-color: #f2f2f2;
+            padding: 50px 0;
+            text-align: center;
+        }
+
+        .logo-section img {
+            width: 30%;
+            height: 400px;
+            margin-bottom: 10px;
+        }
+
+        .logo-section p {
+            font-size: 18px;
+            margin: 5px;
+        }
+
+        /* Estilo para el formulario de login */
+        .login-section {
+            padding: 100px 0;
+            background-color: #e6e6e6;
+            text-align: center;
+        }
+
+        .login-section form {
+            display: inline-block;
+            padding: 20px;
+            background-color: white;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            border-radius: 8px;
+        }
+
+        .login-section input {
+            margin: 10px 0;
+            padding: 10px;
+            width: 250px;
+            border-radius: 5px;
+            border: 1px solid #ccc;
+        }
+
+        .login-section button {
+            padding: 10px 20px;
+            border: none;
+            background-color: #333;
+            color: white;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+
+        .login-section button:hover {
+            background-color: #555;
+        }
+        .nav img{
+            width: 30%;
+        }
+
+    </style>
+</head>
+<body class="bg-light">
+   
+        <section class="nav">
+            <nav class="navbar navbar-expand-md navbar-light fixed-top bg-light navbar-main">
+                <div class="container-fluid">
+                  <a class="navbar-brand" href="#">KIUT</a>
+                  <a href="#" class="navbar-brand">
+                    <img src="./img/Logo-KIUT.png" alt="Brand Gina Admas">
+                  </a>
+                  <div class="collapse navbar-collapse" id="navbarNav">
+                    <div class="nav ms-auto ">
+                    <ul class="navbar-nav">
+                      <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="#">Inicio</a>
+                      </li>
+                      <li class="nav-item">
+                        <a class="nav-link" href="home.html">PRODUCTOS</a>
+                      </li>
+                    </ul>
+                    </div>
+                  </div>
+                </div>
+              </nav>
+
+            </section>
+
+    <!-- Sección de banner -->
+    <div class="banner">
+        <h1>KIUT</h1>
+        <p>La mejor tienda de ropa para ti</p>
+    </div>
+
+    <!-- Sección de logo y datos -->
+    <div class="logo-section">
+        <img src="./img/Logo-KIUT.png" alt="Logo KIUT">
+        <p>KIUT - 2025</p>
+        <p>Correo: contacto@kiut.com</p>
+    </div>
+
+    <!-- Sección de formulario de login -->
+    <div class="login-section">
+        <h2>Inicia sesión</h2>
+        <form action="#">
+            <input type="email" name="email" placeholder="Correo electrónico" required><br>
+            <input type="password" name="password" placeholder="Contraseña" required><br>
+            <button type="submit">Enviar</button>
+        </form>
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+</body>
+</html>
